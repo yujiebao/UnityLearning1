@@ -11,12 +11,12 @@ public class Lesson1 : MonoBehaviour
     #endregion
 
     #region 知识点二 生命周期函数的概念
-    //所有继承MonoBehavior的脚本 最终都会挂载到Gameobject游戏对象上
-    //生命周期函数 就是该脚本对象依附的Gameobject对象从出生到消亡整个生命周期中
-    //会通过反射自动调用的一些特殊函数
+    // 所有继承MonoBehavior的脚本 最终都会挂载到Gameobject游戏对象上
+    // 生命周期函数 就是该脚本对象依附的Gameobject对象从出生到消亡整个生命周期中
+    // 会通过反射自动调用的一些特殊函数
     
-    //unity帮助我们记录了一个Gameobject对象依附了哪些脚本
-    //会自动的得到这些对象，通过反射去执行一些固定名字的函数
+    // unity帮助我们记录了一个Gameobject对象依附了哪些脚本
+    // 会自动的得到这些对象，通过反射去执行一些固定名字的函数
     #endregion
 
     #region 知识点三 生命周期函数
